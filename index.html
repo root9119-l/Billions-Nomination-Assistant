@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Billions Nomination Assistant</title>
+  <style>
+    :root{
+      --bg:#ffffff;
+      --text:#0b0b0c;
+      --muted:rgba(0,0,0,.55);
+      --border:rgba(0,0,0,.10);
+      --shadow:0 10px 30px rgba(0,0,0,.06);
+
+      --blue:#0046FF;     /* from your palette */
+      --black:#000000;
+      --white:#FFFFFF;
+
+      --radius:16px;
+      --radius2:22px;
+    }
+
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans";
+      background:var(--bg);
+      color:var(--text);
+    }
+
+    .wrap{
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 34px 18px 46px;
+    }
+
+    /* Header */
+    .hero{
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+      margin-bottom: 20px;
+      animation: fadeUp .45s ease both;
+    }
+    .hero h1{
+      margin:0;
+      font-size: 24px;
+      letter-spacing:.2px;
+      font-weight: 800;
+    }
+    .hero p{
+      margin:0;
+      font-size: 13px;
+      color:var(--muted);
+    }
+
+    .dev {
+    font-size: 12px;
+    color: rgba(0,0,0,.45);
+    }
+
+    .dev a {
+    color: var(--blue);
+    text-decoration: none;
+    font-weight: 700;
+    }
+
+    .dev a:hover {
+    text-decoration: underline;
+    }
+
+
+    /* Grid */
+    .grid{
+      display:grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 12px;
+    }
+
+    .card{
+      grid-column: span 12;
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius2);
+      overflow:hidden;
+      box-shadow: var(--shadow);
+      transform: translateY(8px);
+      opacity: 0;
+      animation: cardIn .45s ease forwards;
+      will-change: transform, opacity;
+    }
+    @media (min-width: 760px){
+      .card{ grid-column: span 6; }
+    }
+    @media (min-width: 1060px){
+      .card{ grid-column: span 4; }
+    }
+
+    .card:hover{
+      transform: translateY(-2px);
+      box-shadow: 0 14px 40px rgba(0,0,0,.09);
+    }
+
+    .media{
+      width:100%;
+      aspect-ratio: 16/9;
+      background:
+        radial-gradient(1200px 400px at -10% -10%, rgba(0,70,255,.14), transparent 60%),
+        radial-gradient(800px 300px at 110% 0%, rgba(0,70,255,.10), transparent 55%),
+        linear-gradient(135deg, rgba(0,0,0,.03), rgba(0,0,0,.00));
+      position:relative;
+      overflow:hidden;
+    }
+    .media img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      display:block;
+      transform: scale(1.02);
+      transition: transform .35s ease;
+    }
+    .card:hover .media img{ transform: scale(1.05); }
+
+    .pill{
+      position:absolute;
+      left: 12px;
+      top: 12px;
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding: 8px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 800;
+      border: 1px solid rgba(0,0,0,.10);
+      background: rgba(255,255,255,.88);
+      backdrop-filter: blur(8px);
+    }
+    .pill .dot{
+      width:8px;
+      height:8px;
+      border-radius:999px;
+      background: var(--blue);
+    }
+
+    .content{
+      padding: 12px 14px 12px;
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+      min-height: 168px;
+    }
+
+    .topline{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:10px;
+    }
+
+    .who{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      min-width:0;
+    }
+    .avatar{
+      width: 30px;
+      height: 30px;
+      border-radius: 999px;
+      overflow:hidden;
+      border: 1px solid var(--border);
+      background: rgba(0,0,0,.05);
+      flex: 0 0 auto;
+    }
+    .avatar img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      display:block;
+    }
+    .names{
+      display:flex;
+      flex-direction:column;
+      gap:2px;
+      min-width:0;
+    }
+    .names .tw{
+      font-size: 13px;
+      font-weight: 800;
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      max-width: 260px;
+    }
+    .names .dc{
+      font-size: 12px;
+      color: var(--muted);
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      max-width: 260px;
+    }
+
+    .stats{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      margin-top:auto;
+    }
+    .chip{
+      display:inline-flex;
+      align-items:center;
+      gap:7px;
+      padding: 8px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      border: 1px solid var(--border);
+      background: rgba(0,0,0,.03);
+      color: rgba(0,0,0,.85);
+    }
+    .chip b{ font-weight: 900; }
+
+    .text{
+      font-size: 14px;
+      line-height: 1.35;
+      color: rgba(0,0,0,.88);
+      display:-webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow:hidden;
+      min-height: 74px;
+    }
+
+    .links{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      padding: 12px 14px 14px;
+      border-top: 1px solid var(--border);
+      background: rgba(0,0,0,.01);
+    }
+    .link{
+      text-decoration:none;
+      display:inline-flex;
+      align-items:center;
+      gap:10px;
+      padding: 10px 12px;
+      border-radius: 999px;
+      font-weight: 800;
+      font-size: 13px;
+      border: 1px solid var(--border);
+      color: var(--black);
+      background: var(--white);
+      transition: transform .08s ease, filter .15s ease;
+    }
+    .link:hover{ filter: brightness(.98); }
+    .link:active{ transform: translateY(1px); }
+    .link.primary{
+      border-color: rgba(0,70,255,.30);
+      background: rgba(0,70,255,.10);
+      color: var(--black);
+    }
+
+    /* Footer CTA */
+    .footer{
+      margin-top: 18px;
+      display:flex;
+      justify-content:center;
+      animation: fadeUp .45s ease both;
+      animation-delay: .08s;
+    }
+    .btn{
+      cursor:pointer;
+      border: 0;
+      border-radius: 999px;
+      padding: 12px 16px;
+      font-size: 14px;
+      font-weight: 900;
+      background: var(--blue);
+      color: var(--white);
+      box-shadow: var(--shadow);
+      display:inline-flex;
+      align-items:center;
+      gap:10px;
+      transition: transform .08s ease, filter .15s ease;
+      position:relative;
+      overflow:hidden;
+    }
+    .btn:active{ transform: translateY(1px); }
+    .btn:hover{ filter: brightness(.98); }
+    .btn::after{
+      content:"";
+      position:absolute;
+      inset:-2px;
+      background: radial-gradient(600px 120px at 20% 0%, rgba(255,255,255,.25), transparent 60%);
+      opacity:.0;
+      transition: opacity .25s ease;
+      pointer-events:none;
+    }
+    .btn:hover::after{ opacity: 1; }
+
+    .hint{
+      margin-top: 10px;
+      text-align:center;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    /* Animations */
+    @keyframes fadeUp{
+      from{ opacity:0; transform: translateY(10px); }
+      to{ opacity:1; transform: translateY(0); }
+    }
+    @keyframes cardIn{
+      from{ opacity:0; transform: translateY(10px); }
+      to{ opacity:1; transform: translateY(0); }
+    }
+
+    @media (prefers-reduced-motion: reduce){
+      *{ animation: none !important; transition: none !important; }
+      .card{ opacity:1; transform:none; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <h1>Billions Nomination Assistant</h1>
+      <div class="dev">
+        dev:
+        <a href="https://x.com/makssay_eth" target="_blank" rel="noreferrer">
+            @makssay_eth
+        </a>
+      </div>
+      <p>Tweets in <b>share-content</b> for the last two hours</p>
+    </div>
+
+    <div id="grid" class="grid"></div>
+
+    <div class="footer">
+      <button id="toggle" class="btn">
+        <span id="toggleText">See more</span>
+        <span aria-hidden="true">→</span>
+      </button>
+    </div>
+    <div class="hint" id="hint"></div>
+  </div>
+
+  <script>
+    // Put your JSON next to this file (same folder)
+    const DATA_URL = "./tweets_from_discord.json";
+
+    // Show 9 cards first, then all after "See more"
+    const TOP_N = 9;
+
+    // --- Keep score, but DO NOT display it ---
+    function scoreOf(item){
+      const t = item.twitter || {};
+      const likes = Number(t.likes || 0);
+      const rts   = Number(t.retweets || 0);
+      const cmts  = Number(t.comments || 0);
+      const views = Number(t.views || 0);
+      return likes * 3 + rts * 6 + cmts * 5 + views * 0.001;
+    }
+
+    // Role rules:
+    // - If author has OG -> show "OG" only
+    // - Else if Real Human -> show "Real Human" only
+    // - Else if Verified Human -> show "Verified Human" only
+    function pickRoleLabel(item){
+      const src = firstSource(item);
+      const roles = (src && Array.isArray(src.author_roles)) ? src.author_roles : [];
+
+      const has = (name) => roles.some(r => String(r || "").trim().toLowerCase() === name.toLowerCase());
+
+      if (has("OG")) return "OG";
+      if (has("Real Human")) return "Real Human";
+      if (has("Verified Human")) return "Verified Human";
+      return "Member";
+    }
+
+    function firstSource(item){
+      const srcs = item.discord_sources || [];
+      return srcs.length ? srcs[0] : null;
+    }
+
+    function fmt(n){
+      n = Number(n || 0);
+      if (n >= 1e9) return (n/1e9).toFixed(1).replace(/\.0$/,'') + "B";
+      if (n >= 1e6) return (n/1e6).toFixed(1).replace(/\.0$/,'') + "M";
+      if (n >= 1e3) return (n/1e3).toFixed(1).replace(/\.0$/,'') + "K";
+      return String(Math.trunc(n));
+    }
+
+    function escapeHtml(str){
+      return String(str ?? "")
+        .replaceAll("&","&amp;")
+        .replaceAll("<","&lt;")
+        .replaceAll(">","&gt;")
+        .replaceAll('"',"&quot;")
+        .replaceAll("'","&#039;");
+    }
+    function escapeAttr(str){ return escapeHtml(str); }
+
+    function cardHTML(item, idx){
+      const t = item.twitter || {};
+      const src = firstSource(item) || {};
+      const img = Array.isArray(t.images) && t.images.length ? t.images[0] : null;
+
+      const role = pickRoleLabel(item);
+      const twitterLabel = t.author_screen_name ? "@" + t.author_screen_name : (t.author_name || "Twitter");
+      const discordLabel = src.author_username || "Discord";
+
+      const text = (t.text || "").trim() || "(no text)";
+      const tweetUrl = item.tweet_url || "#";
+      const discordUrl = src.message_url || "#";
+
+      return `
+        <article class="card" style="animation-delay:${Math.min(idx*0.03, 0.35)}s">
+          <div class="media">
+            ${img ? `<img src="${escapeAttr(img)}" alt="tweet image" loading="lazy" />` : ``}
+            <div class="pill"><span class="dot"></span>${escapeHtml(role)}</div>
+          </div>
+
+          <div class="content">
+            <div class="topline">
+              <div class="who">
+                <div class="avatar">
+                  ${t.author_profile_image ? `<img src="${escapeAttr(t.author_profile_image)}" alt="pfp" loading="lazy" />` : ``}
+                </div>
+                <div class="names">
+                  <div class="tw">${escapeHtml(twitterLabel)}${t.author_name ? ` · ${escapeHtml(t.author_name)}` : ""}</div>
+                  <div class="dc">Discord: ${escapeHtml(discordLabel)}</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="text">${escapeHtml(text)}</div>
+
+            <div class="stats">
+              <span class="chip"><b>${fmt(t.views)}</b> Views</span>
+              <span class="chip"><b>${fmt(t.likes)}</b> Likes</span>
+              <span class="chip"><b>${fmt(t.retweets)}</b> RT</span>
+              <span class="chip"><b>${fmt(t.comments)}</b> Comments</span>
+            </div>
+          </div>
+
+          <div class="links">
+            <a class="link primary" href="${escapeAttr(tweetUrl)}" target="_blank" rel="noreferrer">Open tweet</a>
+            <a class="link" href="${escapeAttr(discordUrl)}" target="_blank" rel="noreferrer">Open Discord</a>
+          </div>
+        </article>
+      `;
+    }
+
+    // STATE
+    let all = [];
+    let showAll = false;
+
+    const grid = document.getElementById("grid");
+    const toggle = document.getElementById("toggle");
+    const toggleText = document.getElementById("toggleText");
+    const hint = document.getElementById("hint");
+
+    function render(){
+      const list = showAll ? all : all.slice(0, TOP_N);
+
+      grid.innerHTML = list.map((item, idx) => cardHTML(item, idx)).join("");
+
+      if(all.length <= TOP_N){
+        toggle.style.display = "none";
+        hint.textContent = all.length ? `${all.length} tweet(s) loaded.` : "";
+        return;
+      }
+
+      toggle.style.display = "inline-flex";
+      toggleText.textContent = showAll ? "Show less" : "See more";
+      hint.textContent = showAll
+        ? `Showing all ${all.length} tweets.`
+        : `Showing top ${TOP_N} of ${all.length}.`;
+    }
+
+    async function load(){
+
+      const r = await fetch(DATA_URL, { cache:"no-store" });
+      if(!r.ok) throw new Error("Failed to load JSON: " + r.status);
+
+      const data = await r.json();
+      const arr = Array.isArray(data) ? data : [];
+
+      // Sort by hidden score (best first)
+      all = arr
+        .map(x => ({...x, __score: scoreOf(x)}))
+        .sort((a,b) => (b.__score - a.__score));
+
+      showAll = false;
+      render();
+    }
+
+    toggle.addEventListener("click", () => {
+      showAll = !showAll;
+
+      // small smooth transition feel
+      grid.animate(
+        [{ opacity: .65, transform: "translateY(6px)" }, { opacity: 1, transform: "translateY(0)" }],
+        { duration: 220, easing: "ease-out" }
+      );
+
+      render();
+      if(!showAll) window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+
+    load().catch(err => {
+      console.error(err);
+      // tiny fallback card
+      all = [{
+        tweet_id: "demo",
+        tweet_url: "https://x.com/",
+        discord_sources: [{ message_url:"#", author_username:"Demo", author_roles:["OG"], content:"" }],
+        twitter: { author_screen_name:"example", author_name:"Example", author_profile_image:"", likes:0, views:0, retweets:0, comments:0, images:[], text:"Place tweets_from_discord.json next to this HTML (or update DATA_URL)." }
+      }];
+      render();
+    });
+  </script>
+</body>
+</html>
