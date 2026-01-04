@@ -2,8 +2,11 @@ name: Collect Discord Tweets
 
 on:
   schedule:
-    - cron: "0 */2 * * *"   # каждые 2 часа (UTC)
-  workflow_dispatch:       
+    - cron: "0 */2 * * *"   # every 2 hours (UTC)
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   collect:
@@ -13,6 +16,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
+          fetch-depth: 0
           persist-credentials: true
 
       - name: Set up Python
@@ -21,8 +25,7 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: |
-          pip install aiohttp
+        run: pip install aiohttp
 
       - name: Run Discord collector
         env:
@@ -30,24 +33,29 @@ jobs:
           SOCIALDATA_API_KEY: ${{ secrets.SOCIALDATA_API_KEY }}
           GUILD_ID: ${{ secrets.GUILD_ID }}
           CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
-        run: |
-          python discord_x_collector.py
+        run: python discord_x_collector.py
 
       - name: Commit and push tweets_from_discord.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          if [[ -f tweets_from_discord.json ]]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-
-            git add tweets_from_discord.json
-
-
-            if git diff --cached --quiet; then
-              echo "No changes to commit"
-            else
-              git commit -m "update tweets_from_discord.json"
-              git push
-            fi
-          else
+          if [[ ! -f tweets_from_discord.json ]]; then
             echo "tweets_from_discord.json not found"
+            exit 0
           fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add tweets_from_discord.json
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "update tweets_from_discord.json"
+
+          # push using token
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push origin HEAD
