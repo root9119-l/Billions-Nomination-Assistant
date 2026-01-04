@@ -1,0 +1,53 @@
+name: Collect Discord Tweets
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"   # каждые 2 часа (UTC)
+  workflow_dispatch:       
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install aiohttp
+
+      - name: Run Discord collector
+        env:
+          DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+          SOCIALDATA_API_KEY: ${{ secrets.SOCIALDATA_API_KEY }}
+          GUILD_ID: ${{ secrets.GUILD_ID }}
+          CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
+        run: |
+          python discord_x_collector.py
+
+      - name: Commit and push tweets_from_discord.json
+        run: |
+          if [[ -f tweets_from_discord.json ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+
+            git add tweets_from_discord.json
+
+
+            if git diff --cached --quiet; then
+              echo "No changes to commit"
+            else
+              git commit -m "update tweets_from_discord.json"
+              git push
+            fi
+          else
+            echo "tweets_from_discord.json not found"
+          fi
