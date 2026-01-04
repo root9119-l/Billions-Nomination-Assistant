@@ -1,5 +1,698 @@
 [
   {
+    "tweet_id": "2007626665770529003",
+    "tweet_url": "https://x.com/UmarFarooq19367/status/2007626665770529003",
+    "discord_sources": [
+      {
+        "guild_id": 1347581046442688553,
+        "channel_id": 1353336758808477736,
+        "message_id": "1457185570790047775",
+        "message_url": "https://discord.com/channels/1347581046442688553/1353336758808477736/1457185570790047775",
+        "author_username": "assassin.520",
+        "author_id": "1287807460392046724",
+        "author_roles": [
+          "ID Evangelist",
+          "Billions AI",
+          "OG",
+          "Competitions",
+          "Verified Human",
+          "Meme Master",
+          "Rewards",
+          "Raids",
+          "Beta Tester",
+          "Early Adopter",
+          "Real Human",
+          "Content Creator"
+        ],
+        "author_role_ids": [
+          "1351538339102330945",
+          "1351538349050957864",
+          "1351538336497405993",
+          "1351538345775464490",
+          "1351538344735019019",
+          "1351538342507839500",
+          "1351538347935535155",
+          "1351538347264315412",
+          "1351538340729458741",
+          "1351538337936314488",
+          "1351951472354660475",
+          "1351538343904677948"
+        ],
+        "content": "https://x.com/UmarFarooq19367/status/2007626665770529003?t=psU6j3dln4edF-YTcIcbDQ&s=19"
+      }
+    ],
+    "twitter": {
+      "author_screen_name": "UmarFarooq19367",
+      "author_name": "Umar Farooq",
+      "author_profile_image": "https://pbs.twimg.com/profile_images/1997264199299575808/Cs2v8tP8_normal.jpg",
+      "likes": 0,
+      "views": 5,
+      "comments": 0,
+      "retweets": 0,
+      "images": [
+        "https://pbs.twimg.com/media/G9yFzZxasAAvLCh.jpg"
+      ],
+      "text": "Building trust takes time, and @billions_ntwk understands that.\nClear communication remains a defining strength.\nEach phase brings measurable advancement.\nThe community continues to show strong engagement.\nPatience here may be well rewarded. https://t.co/x5BtAuXcEp"
+    }
+  },
+  {
+    "tweet_id": "2007611803539517894",
+    "tweet_url": "https://x.com/gee_euun/status/2007611803539517894",
+    "discord_sources": [
+      {
+        "guild_id": 1347581046442688553,
+        "channel_id": 1353336758808477736,
+        "message_id": "1457184337278669016",
+        "message_url": "https://discord.com/channels/1347581046442688553/1353336758808477736/1457184337278669016",
+        "author_username": "kkangi7856",
+        "author_id": "856668467692699689",
+        "author_roles": [
+          "ID Evangelist",
+          "General Chat",
+          "Billions AI",
+          "Verified Human",
+          "Rewards",
+          "Beta Tester"
+        ],
+        "author_role_ids": [
+          "1351538339102330945",
+          "1361962670789623879",
+          "1351538349050957864",
+          "1351538344735019019",
+          "1351538347935535155",
+          "1351538340729458741"
+        ],
+        "content": "https://x.com/gee_euun/status/2007611803539517894?s=20"
+      }
+    ],
+    "twitter": {
+      "author_screen_name": "gee_euun",
+      "author_name": "MIN",
+      "author_profile_image": "https://pbs.twimg.com/profile_images/1983165668196556800/Kuqd3_PO_normal.jpg",
+      "likes": 3,
+      "views": 23,
+      "comments": 3,
+      "retweets": 0,
+      "images": [
+        "https://pbs.twimg.com/media/G9x4SAGaMAAZxJ3.jpg"
+      ],
+      "text": "Billions Network: 보이지 않는 기술로 보이는 신뢰를 설계하다\n@billions_ntwk \n\n우리는 매일 수많은 웹사이트에 개인정보를 넘겨주며 '편리함'과 '프라이버시'를 맞바꾸고 있습니다. 하지만 Billions Network 는 이 불평등한 거래를 끝내려 합니다. 최근 블로그를 통해 공개된 Billions의 행보는 기술적 완성도를 넘어, 디지털 세상의 권력 구조를 사용자에게 되돌려주는 '신원 민주화'에 박차를 가하고 있습니다.\n\n1. 영지식 증명(ZKP)의 대중화: \"알 필요 없는 정보는 묻지 마세요\"\nBillions Network의 최신 기술 업데이트 중 가장 주목할 점은 영지식 증명(Zero-Knowledge Proofs) 의 실질적 구현입니다. 기존에는 기술적 난이도가 높았던 ZKP를 Billions는 일반 사용자들이 체감할 수 있는 수준으로 끌어내렸습니다. 예를 들어, 사용자는 자신의 생년월일을 공개하지 않고도 \"나는 성인이다\"라는 사실만을 증명하여 성인 인증 서비스를 이용할 수 있습니다. 이는 데이터 유출 사고가 발생해도 해커가 가져갈 '실제 데이터' 자체가 존재하지 않게 만드는 혁신적인 보안 패러다임입니다.\n\n2. 글로벌 규제 샌드박스와의 정렬: eIDAS 2.0과 W3C 표준\nBillions는 단순한 기술 프로젝트를 넘어, 글로벌 법적 표준을 선도하고 있습니다. 블로그에 따르면, Billions는 유럽 연합의 eIDAS 2.0(전자 신원 확인 및 신뢰 서비스) 규격과 W3C의 DID(탈중앙화 식별자) 표준을 준수하며 설계되었습니다. 이는 전 세계 어디서나 법적으로 효력을 갖는 디지털 신원을 구축하겠다는 의지이며, 기업들이 Billions의 인프라를 도입할 때 법적 불확실성을 제거해 주는 강력한 무기가 됩니다.\n\n3. 시빌 저항성(Sybil Resistance)의 새로운 지평\n최근 많은 Web3 프로젝트들이 가짜 계정(Bot)으로 인해 커뮤니티의 진정성을 잃고 있습니다. Billions는 이를 해결하기 위해 '다층적 검증 시스템'을 도입했습니다. 단순히 한 번의 인증으로 끝나는 것이 아니라, 온체인 활동과 소셜 평판, 그리고 주기적인 고유성 확인을 결합하여 봇이 침투할 틈을 주지 않습니다. 이는 $BILL 토큰 생태계가 건강하게 유지될 수 있도록 돕는 가장 강력한 방어막입니다.\n\n4. 개발자를 위한 '신뢰 엔진': 원클릭 통합 SDK\nBillions는 생태계 확장을 위해 개발자 경험(DX) 혁신에도 집중하고 있습니다. 최신 블로그 소식에 따르면, 개발자들은 단 몇 줄의 코드만으로 Billions의 강력한 신원 인증 기능을 자신의 서비스에 통합할 수 있는 SDK를 제공받습니다. 이는 복잡한 암호학적 설계를 직접 할 필요 없이, Billions가 닦아놓은 '신뢰의 고속도로' 위에 자신의 서비스를 올리기만 하면 된다는 것을 의미합니다."
+    }
+  },
+  {
+    "tweet_id": "2007625528652771579",
+    "tweet_url": "https://x.com/havelaw11/status/2007625528652771579",
+    "discord_sources": [
+      {
+        "guild_id": 1347581046442688553,
+        "channel_id": 1353336758808477736,
+        "message_id": "1457184318047785193",
+        "message_url": "https://discord.com/channels/1347581046442688553/1353336758808477736/1457184318047785193",
+        "author_username": "havelaw",
+        "author_id": "894526792981946389",
+        "author_roles": [
+          "ID Evangelist",
+          "General Chat",
+          "Billions AI",
+          "Competitions",
+          "Verified Human",
+          "Meme Master",
+          "Rewards",
+          "Raids",
+          "Beta Tester",
+          "Content Creator"
+        ],
+        "author_role_ids": [
+          "1351538339102330945",
+          "1361962670789623879",
+          "1351538349050957864",
+          "1351538345775464490",
+          "1351538344735019019",
+          "1351538342507839500",
+          "1351538347935535155",
+          "1351538347264315412",
+          "1351538340729458741",
+          "1351538343904677948"
+        ],
+        "content": "https://x.com/havelaw11/status/2007625528652771579?s=20"
+      }
+    ],
+    "twitter": {
+      "author_screen_name": "havelaw11",
+      "author_name": "havelaw 해브로 (❖,❖)",
+      "author_profile_image": "https://pbs.twimg.com/profile_images/1990950675967303680/iEkAeoNS_normal.jpg",
+      "likes": 1,
+      "views": 15,
+      "comments": 1,
+      "retweets": 0,
+      "images": [
+        "https://pbs.twimg.com/media/G9yEjjYasAQ3VcX.jpg"
+      ],
+      "text": "< Sony Bank 사례로 본 Billions의 프라이버시 기반 KYC >\n\n@billions_ntwk 는 일본 주요 은행인 Sony Bank와 함께, 개인정보를 노출하지 않는 KYC 실증 사례를 공개했습니다. 이 파일럿은 SettleMint와 협력해 제로 지식 증명 기술을 실제 금융 환경에 적용한 사례입니다.\n\n이번 적용은 이론이 아닌 실제 서비스로 운영되고 있다는 점에서 의미가 큰데요. 실거래와 실사용자를 대상으로, 개인정보 저장 없이도 KYC/AML 요건을 충족할 수 있음을 입증했다고 하네요.\n\n이는 프라이버시와 규제가 양립 가능하다는 점을 명확히 보여주는데요. Billions는 금융기관이 고객 신뢰를 지키면서도 효율적인 온보딩과 비용 절감을 동시에 달성할 수 있는 인프라를 제공하고 있음을 증명하고 있다고 보면 될 듯."
+    }
+  },
+  {
+    "tweet_id": "2007622137503535539",
+    "tweet_url": "https://x.com/melvialteriooo/status/2007622137503535539",
+    "discord_sources": [
+      {
+        "guild_id": 1347581046442688553,
+        "channel_id": 1353336758808477736,
+        "message_id": "1457181089968951387",
+        "message_url": "https://discord.com/channels/1347581046442688553/1353336758808477736/1457181089968951387",
+        "author_username": "melvialterio",
+        "author_id": "1308346677308162048",
+        "author_roles": [
+          "General Chat",
+          "Billions AI",
+          "OG",
+          "Competitions",
+          "Verified Human",
+          "Rewards",
+          "Real Human",
+          "Event"
+        ],
+        "author_role_ids": [
+          "1361962670789623879",
+          "1351538349050957864",
+          "1351538336497405993",
+          "1351538345775464490",
+          "1351538344735019019",
+          "1351538347935535155",
+          "1351951472354660475",
+          "1374772171083092028"
+        ],
+        "content": "https://x.com/melvialteriooo/status/2007622137503535539?s=46"
+      }
+    ],
+    "twitter": {
+      "author_screen_name": "melvialteriooo",
+      "author_name": "melvialterio",
+      "author_profile_image": "https://pbs.twimg.com/profile_images/2006556751316004867/E8Be6mok_normal.jpg",
+      "likes": 3,
+      "views": 13,
+      "comments": 0,
+      "retweets": 0,
+      "images": [
+        "https://pbs.twimg.com/media/G9yBlWyasAEn-RD.jpg"
+      ],
+      "text": "Gm bill\nSony Bank is using @billions_ntwk technology in their pilot program, especially for services related to yen/USD stablecoin and Web3 digital banking services, so that the KYC verification process not storing complete personal data can run more securely, quickly. https://t.co/ljYQvvl3IK"
+    }
+  },
+  {
+    "tweet_id": "2007620703797891177",
+    "tweet_url": "https://x.com/Boss_officiall/status/2007620703797891177",
+    "discord_sources": [
+      {
+        "guild_id": 1347581046442688553,
+        "channel_id": 1353336758808477736,
+        "message_id": "1457179818767548436",
+        "message_url": "https://discord.com/channels/1347581046442688553/1353336758808477736/1457179818767548436",
+        "author_username": "boss4458",
+        "author_id": "974968869431160832",
+        "author_roles": [
+          "ID Evangelist",
+          "Billions Supermasks",
+          "Billions AI",
+          "Competitions",
+          "Verified Human",
+          "Meme Master",
+          "Content Creator",
+          "Rewards",
+          "Raids",
+          "Beta Tester",
+          "Real Human",
+          "Event"
+        ],
+        "author_role_ids": [
+          "1351538339102330945",
+          "1424830415990161570",
+          "1351538349050957864",
+          "1351538345775464490",
+          "1351538344735019019",
+          "1351538342507839500",
+          "1351538343904677948",
+          "1351538347935535155",
+          "1351538347264315412",
+          "1351538340729458741",
+          "1351951472354660475",
+          "1374772171083092028"
+        ],
+        "content": "https://x.com/Boss_officiall/status/2007620703797891177?s=20"
+      }
+    ],
+    "twitter": {
+      "author_screen_name": "Boss_officiall",
+      "author_name": "Ярослав base.eth",
+      "author_profile_image": "https://pbs.twimg.com/profile_images/1652433424810901506/R75P-udy_normal.jpg",
+      "likes": 11,
+      "views": 23,
+      "comments": 3,
+      "retweets": 0,
+      "images": [
+        "https://pbs.twimg.com/media/G9yAPR1X0AAea5B.jpg",
+        "https://pbs.twimg.com/media/G9yAQXgWEAANjKr.jpg"
+      ],
+      "text": "🚀 $BILL vs $SWAGMI: Who takes the crown in 2026?\n\nLeft side: Bitcoin-powered rocket blasting off to the moon!  \n\nRight side: Swag doggo with coffee, gold chain, and ultimate chill vibes\n\n$BILL = flight to the future: verification, trust between humans & AI, billions of real users.  \n$SWAGMI = \"We're All Gonna Make It\" with memes, hype, and relaxed wealth.\n\nHere at @billions_ntwk we choose BOTH: rocketing to the moon, but with swag and coffee in hand! 🔥\n\nWho’s your favorite? Vote in the comments and join the Human & AI Network - verify yourself and earn POWER points!"
+    }
+  },
+  {
+    "tweet_id": "2007620974615900544",
+    "tweet_url": "https://x.com/i/status/2007620974615900544",
+    "discord_sources": [
+      {
+        "guild_id": 1347581046442688553,
+        "channel_id": 1353336758808477736,
+        "message_id": "1457179810563358899",
+        "message_url": "https://discord.com/channels/1347581046442688553/1353336758808477736/1457179810563358899",
+        "author_username": "takahashi76538",
+        "author_id": "1131179872589459506",
+        "author_roles": [
+          "ID Evangelist",
+          "Billions AI",
+          "Competitions",
+          "Verified Human",
+          "Meme Master",
+          "Rewards",
+          "Raids",
+          "Beta Tester",
+          "Early Adopter",
+          "Real Human",
+          "Content Creator"
+        ],
+        "author_role_ids": [
+          "1351538339102330945",
+          "1351538349050957864",
+          "1351538345775464490",
+          "1351538344735019019",
+          "1351538342507839500",
+          "1351538347935535155",
+          "1351538347264315412",
+          "1351538340729458741",
+          "1351538337936314488",
+          "1351951472354660475",
+          "1351538343904677948"
+        ],
+        "content": "https://x.com/i/status/2007620974615900544"
+      }
+    ],
+    "twitter": {
+      "author_screen_name": "CryptoTakahashi",
+      "author_name": "Takahashi Orochi",
+      "author_profile_image": "https://pbs.twimg.com/profile_images/1996901573147152384/9KXg8U7__normal.jpg",
+      "likes": 1,
+      "views": 9,
+      "comments": 0,
+      "retweets": 0,
+      "images": [
+        "https://pbs.twimg.com/media/G9yAovLbkAAbHmv.jpg"
+      ],
+      "text": "gBillions fam💰\n\n2025 was super intense for @billions_ntwk -&gt; the network grew to 2.3M+ real humans worldwide! \n\nLaunched $BILL token, NFTs, official profiles... \nThe team really just don't stop, they even managed to touch grass in Porto! \n\nNext stop: TGE 2026. Are u ready? https://t.co/eCbXCjf8hU"
+    }
+  },
+  {
+    "tweet_id": "2007618625323315404",
+    "tweet_url": "https://x.com/i/status/2007618625323315404",
+    "discord_sources": [
+      {
+        "guild_id": 1347581046442688553,
+        "channel_id": 1353336758808477736,
+        "message_id": "1457177958874874059",
+        "message_url": "https://discord.com/channels/1347581046442688553/1353336758808477736/1457177958874874059",
+        "author_username": "vampire040",
+        "author_id": "1301909057216712759",
+        "author_roles": [
+          "ID Evangelist",
+          "Billions Supermasks",
+          "Billions AI",
+          "OG",
+          "Competitions",
+          "Verified Human",
+          "Meme Master",
+          "Content Creator",
+          "Rewards",
+          "Raids",
+          "Beta Tester",
+          "Real Human",
+          "Event"
+        ],
+        "author_role_ids": [
+          "1351538339102330945",
+          "1424830415990161570",
+          "1351538349050957864",
+          "1351538336497405993",
+          "1351538345775464490",
+          "1351538344735019019",
+          "1351538342507839500",
+          "1351538343904677948",
+          "1351538347935535155",
+          "1351538347264315412",
+          "1351538340729458741",
+          "1351951472354660475",
+          "1374772171083092028"
+        ],
+        "content": "https://x.com/i/status/2007618625323315404"
+      }
+    ],
+    "twitter": {
+      "author_screen_name": "storka33",
+      "author_name": "Storka 🍚 ⛓️ 🍊,💊 π²",
+      "author_profile_image": "https://pbs.twimg.com/profile_images/2000215774825250821/pdnkB4HP_normal.png",
+      "likes": 2,
+      "views": 11,
+      "comments": 1,
+      "retweets": 0,
+      "images": [
+        "https://pbs.twimg.com/media/G9x98n_XMAEJ0di.jpg"
+      ],
+      "text": "Connectivity is the core of everything I do. Grateful to be part of the @billions_ntwk community.\n\n#gBillions fam https://t.co/syO9BKeGO5"
+    }
+  },
+  {
+    "tweet_id": "2007616051081789566",
+    "tweet_url": "https://x.com/i/status/2007616051081789566",
+    "discord_sources": [
+      {
+        "guild_id": 1347581046442688553,
+        "channel_id": 1353336758808477736,
+        "message_id": "1457175587033448499",
+        "message_url": "https://discord.com/channels/1347581046442688553/1353336758808477736/1457175587033448499",
+        "author_username": "sufianxbt",
+        "author_id": "1328442325390852147",
+        "author_roles": [
+          "ID Evangelist",
+          "Billions AI",
+          "Competitions",
+          "Verified Human",
+          "Meme Master",
+          "Content Creator",
+          "Rewards",
+          "Raids",
+          "Beta Tester",
+          "Event"
+        ],
+        "author_role_ids": [
+          "1351538339102330945",
+          "1351538349050957864",
+          "1351538345775464490",
+          "1351538344735019019",
+          "1351538342507839500",
+          "1351538343904677948",
+          "1351538347935535155",
+          "1351538347264315412",
+          "1351538340729458741",
+          "1374772171083092028"
+        ],
+        "content": "<@317775379819397120> \nhttps://x.com/i/status/2007616051081789566"
+      }
+    ],
+    "twitter": {
+      "author_screen_name": "sufianxbt",
+      "author_name": "MR.ABU 💲",
+      "author_profile_image": "https://pbs.twimg.com/profile_images/2005347746203762688/Z_8DAGGJ_normal.jpg",
+      "likes": 2,
+      "views": 16,
+      "comments": 2,
+      "retweets": 0,
+      "images": [
+        "https://pbs.twimg.com/media/G9x8JNAbgAAJAEG.jpg",
+        "https://pbs.twimg.com/media/G9x8JdubYAA81oX.jpg"
+      ],
+      "text": "𝑮𝒐𝒐𝒅 𝒎𝒐𝒓𝒏𝒊𝒏𝒈 𝒃𝒊𝒍𝒍𝒊𝒐𝒏𝒔 𝒇𝒂𝒎 🌞\n\nGift 1 already announced \nGift 2 is on the way \nI mean Another snapshot before TGE \nWe are really waiting for this moment. \n\nIt's my 1st handmade artwork \nFor @billions_ntwk \n\nSnapshot 1 already taken 💚\nStill, I'm trying, if I can still do something.\n\n@jgonzalezferrer"
+    }
+  },
+  {
+    "tweet_id": "2007613690686935542",
+    "tweet_url": "https://x.com/i/status/2007613690686935542",
+    "discord_sources": [
+      {
+        "guild_id": 1347581046442688553,
+        "channel_id": 1353336758808477736,
+        "message_id": "1457173192526401589",
+        "message_url": "https://discord.com/channels/1347581046442688553/1353336758808477736/1457173192526401589",
+        "author_username": "bartafx",
+        "author_id": "1308379295286300674",
+        "author_roles": [
+          "ID Evangelist",
+          "Billions AI",
+          "Competitions",
+          "Verified Human",
+          "Meme Master",
+          "Rewards",
+          "Raids",
+          "Beta Tester",
+          "Early Adopter",
+          "Real Human",
+          "Content Creator"
+        ],
+        "author_role_ids": [
+          "1351538339102330945",
+          "1351538349050957864",
+          "1351538345775464490",
+          "1351538344735019019",
+          "1351538342507839500",
+          "1351538347935535155",
+          "1351538347264315412",
+          "1351538340729458741",
+          "1351538337936314488",
+          "1351951472354660475",
+          "1351538343904677948"
+        ],
+        "content": "https://x.com/i/status/2007613690686935542"
+      }
+    ],
+    "twitter": {
+      "author_screen_name": "Saintfx12",
+      "author_name": "Saint",
+      "author_profile_image": "https://pbs.twimg.com/profile_images/1957900979937894401/tZRGUK1q_normal.jpg",
+      "likes": 0,
+      "views": 2,
+      "comments": 0,
+      "retweets": 0,
+      "images": [],
+      "text": "New web site from billion https://t.co/JYvUFD2ntq"
+    }
+  },
+  {
+    "tweet_id": "2007611925967040717",
+    "tweet_url": "https://x.com/0xronaldd/status/2007611925967040717",
+    "discord_sources": [
+      {
+        "guild_id": 1347581046442688553,
+        "channel_id": 1353336758808477736,
+        "message_id": "1457170979427188756",
+        "message_url": "https://discord.com/channels/1347581046442688553/1353336758808477736/1457170979427188756",
+        "author_username": "edzzzz111",
+        "author_id": "1229712863300685824",
+        "author_roles": [
+          "ID Evangelist",
+          "Billions AI",
+          "Competitions",
+          "Verified Human",
+          "Meme Master",
+          "Rewards",
+          "Raids",
+          "Beta Tester",
+          "Early Adopter",
+          "Real Human",
+          "Content Creator"
+        ],
+        "author_role_ids": [
+          "1351538339102330945",
+          "1351538349050957864",
+          "1351538345775464490",
+          "1351538344735019019",
+          "1351538342507839500",
+          "1351538347935535155",
+          "1351538347264315412",
+          "1351538340729458741",
+          "1351538337936314488",
+          "1351951472354660475",
+          "1351538343904677948"
+        ],
+        "content": "https://x.com/0xronaldd/status/2007611925967040717?t=SyL-bdpueByY271bO9xRNw&s=19"
+      }
+    ],
+    "twitter": {
+      "author_screen_name": "0xronaldd",
+      "author_name": "Ronaldd",
+      "author_profile_image": "https://pbs.twimg.com/profile_images/2005973396744794113/dz1-ZfzR_normal.jpg",
+      "likes": 2,
+      "views": 18,
+      "comments": 1,
+      "retweets": 0,
+      "images": [
+        "https://pbs.twimg.com/media/G9x4ZTeasAAe84E.jpg",
+        "https://pbs.twimg.com/media/G9x4ZSVaMAA3ZhD.jpg"
+      ],
+      "text": "I took a moment to create a picture of @billions_ntwk and for the head of the @jgonzalezferrer community.\n\nI usually use a blue background. Maybe I'll try using light green. Sorry if it's not good, but I tried my best. https://t.co/mRka4rzr6H"
+    }
+  },
+  {
+    "tweet_id": "2007603204792693023",
+    "tweet_url": "https://x.com/oxbigbearr/status/2007603204792693023",
+    "discord_sources": [
+      {
+        "guild_id": 1347581046442688553,
+        "channel_id": 1353336758808477736,
+        "message_id": "1457168422503841823",
+        "message_url": "https://discord.com/channels/1347581046442688553/1353336758808477736/1457168422503841823",
+        "author_username": "oxbigbear",
+        "author_id": "972887737738870794",
+        "author_roles": [
+          "ID Evangelist",
+          "General Chat",
+          "Billions AI",
+          "Competitions",
+          "Verified Human",
+          "Meme Master",
+          "Rewards",
+          "Raids",
+          "Beta Tester",
+          "Content Creator"
+        ],
+        "author_role_ids": [
+          "1351538339102330945",
+          "1361962670789623879",
+          "1351538349050957864",
+          "1351538345775464490",
+          "1351538344735019019",
+          "1351538342507839500",
+          "1351538347935535155",
+          "1351538347264315412",
+          "1351538340729458741",
+          "1351538343904677948"
+        ],
+        "content": "https://x.com/oxbigbearr/status/2007603204792693023?t=Qt3kNPkkcpnpkdLkEjwp8w&s=19"
+      }
+    ],
+    "twitter": {
+      "author_screen_name": "oxbigbearr",
+      "author_name": "bigbear",
+      "author_profile_image": "https://pbs.twimg.com/profile_images/1980947157147385856/ltvLTvtE_normal.jpg",
+      "likes": 0,
+      "views": 6,
+      "comments": 0,
+      "retweets": 0,
+      "images": [
+        "https://pbs.twimg.com/media/G9xweNZXwAASosI.jpg"
+      ],
+      "text": "The new adventure has begun! \nTwo epic explorers are heading to https://t.co/fJK9MvVYqh to discover the real treasures of Web3 \nCome join us: https://t.co/fJK9MvVYqh https://t.co/Gcsx0dzgVt"
+    }
+  },
+  {
+    "tweet_id": "2007602889892737222",
+    "tweet_url": "https://x.com/Bunz_web3/status/2007602889892737222",
+    "discord_sources": [
+      {
+        "guild_id": 1347581046442688553,
+        "channel_id": 1353336758808477736,
+        "message_id": "1457161941339476028",
+        "message_url": "https://discord.com/channels/1347581046442688553/1353336758808477736/1457161941339476028",
+        "author_username": "abdo095546",
+        "author_id": "1333034684036419667",
+        "author_roles": [
+          "ID Evangelist",
+          "Billions AI",
+          "Competitions",
+          "Verified Human",
+          "Meme Master",
+          "Content Creator",
+          "Rewards",
+          "Raids",
+          "Beta Tester",
+          "Early Adopter",
+          "Real Human",
+          "Event"
+        ],
+        "author_role_ids": [
+          "1351538339102330945",
+          "1351538349050957864",
+          "1351538345775464490",
+          "1351538344735019019",
+          "1351538342507839500",
+          "1351538343904677948",
+          "1351538347935535155",
+          "1351538347264315412",
+          "1351538340729458741",
+          "1351538337936314488",
+          "1351951472354660475",
+          "1374772171083092028"
+        ],
+        "content": "https://x.com/Bunz_web3/status/2007602889892737222?s=20"
+      }
+    ],
+    "twitter": {
+      "author_screen_name": "Bunz_web3",
+      "author_name": "Bunz",
+      "author_profile_image": "https://pbs.twimg.com/profile_images/1993535849720397824/nWFmEOMT_normal.jpg",
+      "likes": 3,
+      "views": 18,
+      "comments": 1,
+      "retweets": 0,
+      "images": [
+        "https://pbs.twimg.com/media/G9xvSm6XIAAuJl6.jpg"
+      ],
+      "text": "who wants to play @billions_ntwk chess with me fam💙 https://t.co/OP9ViFV6ss"
+    }
+  },
+  {
+    "tweet_id": "2007600490314641537",
+    "tweet_url": "https://x.com/Nushka3Web/status/2007600490314641537",
+    "discord_sources": [
+      {
+        "guild_id": 1347581046442688553,
+        "channel_id": 1353336758808477736,
+        "message_id": "1457160295767216158",
+        "message_url": "https://discord.com/channels/1347581046442688553/1353336758808477736/1457160295767216158",
+        "author_username": "nushka3web",
+        "author_id": "964816002955223100",
+        "author_roles": [
+          "ID Evangelist",
+          "General Chat",
+          "Billions AI",
+          "Competitions",
+          "Verified Human",
+          "Meme Master",
+          "Content Creator",
+          "Rewards",
+          "Raids",
+          "Beta Tester",
+          "Real Human",
+          "Event"
+        ],
+        "author_role_ids": [
+          "1351538339102330945",
+          "1361962670789623879",
+          "1351538349050957864",
+          "1351538345775464490",
+          "1351538344735019019",
+          "1351538342507839500",
+          "1351538343904677948",
+          "1351538347935535155",
+          "1351538347264315412",
+          "1351538340729458741",
+          "1351951472354660475",
+          "1374772171083092028"
+        ],
+        "content": "https://x.com/Nushka3Web/status/2007600490314641537?s=20"
+      }
+    ],
+    "twitter": {
+      "author_screen_name": "Nushka3Web",
+      "author_name": "Nushka3Web",
+      "author_profile_image": "https://pbs.twimg.com/profile_images/2004880443930226688/uMd5W0bb_normal.jpg",
+      "likes": 3,
+      "views": 23,
+      "comments": 2,
+      "retweets": 0,
+      "images": [
+        "https://pbs.twimg.com/media/G9xt8kWXUAIlPaJ.jpg"
+      ],
+      "text": "To the legends on @billions_ntwk I greet you all 💙💙\n\nLet's have a wonderful weekend and we get ready for the coming weekdays ahead of us ⚙⚙\n\n G to the world $BILL and my Co debtors 😅😅 @mhonday115991 @KHomeez SPACE UPS https://t.co/WtC0RbyBhU"
+    }
+  },
+  {
     "tweet_id": "2007575812585988286",
     "tweet_url": "https://x.com/i/status/2007575812585988286",
     "discord_sources": [
@@ -44,7 +737,7 @@
       "author_name": "Takahashi Orochi",
       "author_profile_image": "https://pbs.twimg.com/profile_images/1996901573147152384/9KXg8U7__normal.jpg",
       "likes": 0,
-      "views": 9,
+      "views": 10,
       "comments": 0,
       "retweets": 0,
       "images": [
@@ -99,9 +792,9 @@
       "author_screen_name": "lisa6616393",
       "author_name": "L i s a ♡",
       "author_profile_image": "https://pbs.twimg.com/profile_images/2004504918460416001/HGJbdDEJ_normal.jpg",
-      "likes": 0,
-      "views": 8,
-      "comments": 0,
+      "likes": 2,
+      "views": 23,
+      "comments": 1,
       "retweets": 0,
       "images": [
         "https://pbs.twimg.com/media/G9xryu8bsAAXthW.jpg",
@@ -159,7 +852,7 @@
       "author_name": "Jilius ( JIL )",
       "author_profile_image": "https://pbs.twimg.com/profile_images/1986413137713602560/9GBktnGJ_normal.jpg",
       "likes": 1,
-      "views": 10,
+      "views": 11,
       "comments": 0,
       "retweets": 0,
       "images": [],
@@ -213,7 +906,7 @@
       "author_name": "Sunaina",
       "author_profile_image": "https://pbs.twimg.com/profile_images/1974761447692570624/AHP43eTT_normal.jpg",
       "likes": 0,
-      "views": 8,
+      "views": 10,
       "comments": 0,
       "retweets": 0,
       "images": [
@@ -323,7 +1016,7 @@
       "author_name": "Barabilo T",
       "author_profile_image": "https://pbs.twimg.com/profile_images/1993656661936943104/KwlMs8n__normal.jpg",
       "likes": 1,
-      "views": 18,
+      "views": 20,
       "comments": 1,
       "retweets": 0,
       "images": [
@@ -473,7 +1166,7 @@
       "author_name": "Ankur Kumar",
       "author_profile_image": "https://pbs.twimg.com/profile_images/1958596394664828930/pJl-BAZl_normal.jpg",
       "likes": 3,
-      "views": 22,
+      "views": 37,
       "comments": 1,
       "retweets": 0,
       "images": [
@@ -616,8 +1309,8 @@
       "author_screen_name": "SheMue12",
       "author_name": "Ibrahim .base.eth",
       "author_profile_image": "https://pbs.twimg.com/profile_images/1993795362914484224/hWRywy5Z_normal.jpg",
-      "likes": 2,
-      "views": 15,
+      "likes": 3,
+      "views": 27,
       "comments": 2,
       "retweets": 0,
       "images": [
@@ -778,8 +1471,8 @@
       "author_screen_name": "pepenclaw",
       "author_name": "Pepenz",
       "author_profile_image": "https://pbs.twimg.com/profile_images/2006109017291345920/YKhqIQO3_normal.jpg",
-      "likes": 2,
-      "views": 7,
+      "likes": 3,
+      "views": 11,
       "comments": 0,
       "retweets": 0,
       "images": [
@@ -833,7 +1526,7 @@
       "author_name": "mahnoor 🍊,💊",
       "author_profile_image": "https://pbs.twimg.com/profile_images/1960771847823265792/7qhSf0zY_normal.jpg",
       "likes": 0,
-      "views": 9,
+      "views": 10,
       "comments": 0,
       "retweets": 0,
       "images": [
@@ -1047,7 +1740,7 @@
       "author_name": "Web3 Hunter | 𝔽rAI",
       "author_profile_image": "https://pbs.twimg.com/profile_images/1976198854774034432/w_3sPTUb_normal.jpg",
       "likes": 3,
-      "views": 19,
+      "views": 25,
       "comments": 0,
       "retweets": 0,
       "images": [
@@ -1207,7 +1900,7 @@
       "author_name": "LEO",
       "author_profile_image": "https://pbs.twimg.com/profile_images/2006041738612482048/4DjbVbfJ_normal.jpg",
       "likes": 3,
-      "views": 20,
+      "views": 22,
       "comments": 3,
       "retweets": 0,
       "images": [
@@ -1259,7 +1952,7 @@
       "author_name": "@komailraza123",
       "author_profile_image": "https://pbs.twimg.com/profile_images/2000703805328105472/8lYcYccf_normal.jpg",
       "likes": 2,
-      "views": 19,
+      "views": 21,
       "comments": 2,
       "retweets": 0,
       "images": [
@@ -1461,7 +2154,7 @@
       "author_name": "ᨄᨗᨑᨛᨆᨊᨛ",
       "author_profile_image": "https://pbs.twimg.com/profile_images/1990933465228050432/Z5NK_3nO_normal.jpg",
       "likes": 0,
-      "views": 18,
+      "views": 21,
       "comments": 1,
       "retweets": 0,
       "images": [],
@@ -1665,7 +2358,7 @@
       "author_name": "Ghost ✨",
       "author_profile_image": "https://pbs.twimg.com/profile_images/2000656645815177223/_tler5Zt_normal.jpg",
       "likes": 16,
-      "views": 188,
+      "views": 191,
       "comments": 12,
       "retweets": 3,
       "images": [
@@ -1718,8 +2411,8 @@
       "author_screen_name": "shellygmz",
       "author_name": "Shelly",
       "author_profile_image": "https://pbs.twimg.com/profile_images/1989021870440710144/SNES1SY6_normal.jpg",
-      "likes": 1,
-      "views": 14,
+      "likes": 2,
+      "views": 18,
       "comments": 0,
       "retweets": 0,
       "images": [
@@ -1769,7 +2462,7 @@
       "author_name": "JustDemoo",
       "author_profile_image": "https://pbs.twimg.com/profile_images/1979277796447764481/BwV3u-Vc_normal.jpg",
       "likes": 1,
-      "views": 5,
+      "views": 6,
       "comments": 0,
       "retweets": 0,
       "images": [
@@ -1825,7 +2518,7 @@
       "author_name": "Maryam Ibrahimhttps:KGeN၊||၊ DeSpeed ၊||၊",
       "author_profile_image": "https://pbs.twimg.com/profile_images/1764582185342828544/9Ph-UG6w_normal.png",
       "likes": 0,
-      "views": 7,
+      "views": 11,
       "comments": 0,
       "retweets": 0,
       "images": [
@@ -1881,7 +2574,7 @@
       "author_name": "𝙉𝙁𝙏𝙂𝙪𝙧𝙤𝙀𝙏𝙃",
       "author_profile_image": "https://pbs.twimg.com/profile_images/2002322176771567616/2tycDXlG_normal.jpg",
       "likes": 11,
-      "views": 68,
+      "views": 69,
       "comments": 12,
       "retweets": 1,
       "images": [
@@ -1935,7 +2628,7 @@
       "author_name": "ZARA MOSHAN",
       "author_profile_image": "https://pbs.twimg.com/profile_images/2007556899588214784/YDHcO1aS_normal.jpg",
       "likes": 4,
-      "views": 37,
+      "views": 38,
       "comments": 0,
       "retweets": 0,
       "images": [
@@ -1992,8 +2685,8 @@
       "author_screen_name": "trevortenlone",
       "author_name": "NETRO👑🌟💫 | 𝔽rAI",
       "author_profile_image": "https://pbs.twimg.com/profile_images/2007071538072174592/RVxhAywr_normal.jpg",
-      "likes": 1,
-      "views": 10,
+      "likes": 2,
+      "views": 14,
       "comments": 1,
       "retweets": 1,
       "images": [
@@ -2045,7 +2738,7 @@
       "author_name": "Guzy",
       "author_profile_image": "https://pbs.twimg.com/profile_images/2007025252128206848/sF-am2CA_normal.jpg",
       "likes": 4,
-      "views": 50,
+      "views": 58,
       "comments": 0,
       "retweets": 0,
       "images": [
@@ -2098,8 +2791,8 @@
       "author_screen_name": "Jetezct",
       "author_name": "Jetezct",
       "author_profile_image": "https://pbs.twimg.com/profile_images/1998007408568963072/6bZXcA8S_normal.jpg",
-      "likes": 1,
-      "views": 18,
+      "likes": 2,
+      "views": 24,
       "comments": 2,
       "retweets": 0,
       "images": [
@@ -2193,7 +2886,7 @@
       "author_name": "SULAIMAN AIRDROP",
       "author_profile_image": "https://pbs.twimg.com/profile_images/2007481983216058368/4CxBnJnZ_normal.jpg",
       "likes": 4,
-      "views": 78,
+      "views": 81,
       "comments": 1,
       "retweets": 0,
       "images": [
@@ -2249,7 +2942,7 @@
       "author_name": "CheesyDN.base.eth",
       "author_profile_image": "https://pbs.twimg.com/profile_images/1958479554319884288/PsykY87s_normal.jpg",
       "likes": 0,
-      "views": 6,
+      "views": 8,
       "comments": 0,
       "retweets": 0,
       "images": [],
@@ -2421,7 +3114,7 @@
       "author_name": "._.Reza.m. (💙,🧡)$",
       "author_profile_image": "https://pbs.twimg.com/profile_images/1972698120912773120/_1oGGTRI_normal.jpg",
       "likes": 3,
-      "views": 80,
+      "views": 82,
       "comments": 3,
       "retweets": 0,
       "images": [
@@ -2472,8 +3165,8 @@
       "author_screen_name": "JDNINJAH2",
       "author_name": "MR. DWIP💲",
       "author_profile_image": "https://pbs.twimg.com/profile_images/1975498837382021120/-I7sIRvN_normal.jpg",
-      "likes": 1,
-      "views": 7,
+      "likes": 2,
+      "views": 11,
       "comments": 0,
       "retweets": 0,
       "images": [
@@ -2579,8 +3272,8 @@
       "author_screen_name": "Johnson31188447",
       "author_name": "crypto Marine ./🟥 🇬🇧 🫎🌶️",
       "author_profile_image": "https://pbs.twimg.com/profile_images/2000894389472632837/pG6KWwQp_normal.jpg",
-      "likes": 1,
-      "views": 18,
+      "likes": 2,
+      "views": 22,
       "comments": 1,
       "retweets": 0,
       "images": [
@@ -2639,9 +3332,9 @@
       "author_screen_name": "elkhawaga20222",
       "author_name": "adelkhater",
       "author_profile_image": "https://pbs.twimg.com/profile_images/2002011119745961985/crKG8UxM_normal.jpg",
-      "likes": 17,
-      "views": 100,
-      "comments": 13,
+      "likes": 18,
+      "views": 117,
+      "comments": 14,
       "retweets": 4,
       "images": [],
       "text": "gbillions fam 💙\nGM @jgonzalezferrer \n\nJust dropped a handmade creation called Billions Man, inspired by the energy and vision of @billions_ntwk  Built with passion, creativity, and real belief in what this community is becoming\n#BillionsNetwork #Billions https://t.co/VOqAmYLgCr"
@@ -2744,7 +3437,7 @@
       "author_name": "Louanes",
       "author_profile_image": "https://pbs.twimg.com/profile_images/1977092525337858048/jhhv8uOb_normal.jpg",
       "likes": 1,
-      "views": 38,
+      "views": 39,
       "comments": 2,
       "retweets": 0,
       "images": [
@@ -2800,7 +3493,7 @@
       "author_name": "Emmy .onefootball⚽ π² 🌶️ 🟥 | Arichain",
       "author_profile_image": "https://pbs.twimg.com/profile_images/1995371250886029312/LcrueOGn_normal.jpg",
       "likes": 2,
-      "views": 25,
+      "views": 28,
       "comments": 1,
       "retweets": 0,
       "images": [
@@ -2902,7 +3595,7 @@
       "author_name": "c11crypto",
       "author_profile_image": "https://pbs.twimg.com/profile_images/1990144224537477121/5vkaB5q5_normal.jpg",
       "likes": 2,
-      "views": 9,
+      "views": 11,
       "comments": 0,
       "retweets": 0,
       "images": [],
@@ -2946,7 +3639,7 @@
       "author_name": "DESTO OF WEB3🗽",
       "author_profile_image": "https://pbs.twimg.com/profile_images/1964769166914646016/fgYSNlJv_normal.jpg",
       "likes": 2,
-      "views": 29,
+      "views": 33,
       "comments": 0,
       "retweets": 0,
       "images": [
@@ -3001,8 +3694,8 @@
       "author_screen_name": "aysho_M",
       "author_name": "Aysho 🟧 (✸,✸)",
       "author_profile_image": "https://pbs.twimg.com/profile_images/1999390918554845185/h2KhjTmD_normal.jpg",
-      "likes": 1,
-      "views": 9,
+      "likes": 2,
+      "views": 11,
       "comments": 0,
       "retweets": 0,
       "images": [],
@@ -3054,7 +3747,7 @@
       "author_name": "Kira",
       "author_profile_image": "https://pbs.twimg.com/profile_images/1967576359825453056/uqBDcWny_normal.jpg",
       "likes": 0,
-      "views": 11,
+      "views": 12,
       "comments": 0,
       "retweets": 0,
       "images": [
@@ -3106,7 +3799,7 @@
       "author_name": "Guzy",
       "author_profile_image": "https://pbs.twimg.com/profile_images/2007025252128206848/sF-am2CA_normal.jpg",
       "likes": 5,
-      "views": 29,
+      "views": 32,
       "comments": 1,
       "retweets": 0,
       "images": [
@@ -3264,7 +3957,7 @@
       "author_name": "Bobbyrash",
       "author_profile_image": "https://pbs.twimg.com/profile_images/1973507977907695616/O2ujFcLB_normal.jpg",
       "likes": 3,
-      "views": 39,
+      "views": 40,
       "comments": 1,
       "retweets": 0,
       "images": [
@@ -3377,9 +4070,9 @@
       "author_screen_name": "lyordbaby2",
       "author_name": "Victor rou",
       "author_profile_image": "https://pbs.twimg.com/profile_images/1990754160577294336/Bn4Y_cnG_normal.jpg",
-      "likes": 18,
-      "views": 50,
-      "comments": 18,
+      "likes": 21,
+      "views": 63,
+      "comments": 21,
       "retweets": 1,
       "images": [
         "https://pbs.twimg.com/media/G9w0WluWYAACbdF.jpg"
@@ -3427,8 +4120,8 @@
       "author_screen_name": "emroyd1",
       "author_name": "Eldergod",
       "author_profile_image": "https://pbs.twimg.com/profile_images/1999904885915963395/1NBuRmYV_normal.jpg",
-      "likes": 1,
-      "views": 26,
+      "likes": 2,
+      "views": 27,
       "comments": 0,
       "retweets": 1,
       "images": [],
@@ -3480,7 +4173,7 @@
       "author_name": "revidho.base.eth",
       "author_profile_image": "https://pbs.twimg.com/profile_images/1995535857311506432/68ed_xLM_normal.jpg",
       "likes": 1,
-      "views": 6,
+      "views": 9,
       "comments": 0,
       "retweets": 0,
       "images": [
@@ -3534,7 +4227,7 @@
       "author_name": "Amir",
       "author_profile_image": "https://pbs.twimg.com/profile_images/1955292449636536320/Tt3_iUZO_normal.jpg",
       "likes": 4,
-      "views": 22,
+      "views": 24,
       "comments": 3,
       "retweets": 0,
       "images": [
@@ -3586,7 +4279,7 @@
       "author_name": "Smolder",
       "author_profile_image": "https://pbs.twimg.com/profile_images/2005375541311119360/13yUcoYN_normal.jpg",
       "likes": 1,
-      "views": 10,
+      "views": 13,
       "comments": 0,
       "retweets": 0,
       "images": [
@@ -3868,7 +4561,7 @@
       "author_name": "alamm",
       "author_profile_image": "https://pbs.twimg.com/profile_images/1996952733891620864/EH7tZbaI_normal.jpg",
       "likes": 5,
-      "views": 34,
+      "views": 38,
       "comments": 3,
       "retweets": 1,
       "images": [
@@ -3917,8 +4610,8 @@
       "author_screen_name": "Raybodex",
       "author_name": "Raybod🫎",
       "author_profile_image": "https://pbs.twimg.com/profile_images/1978898367565406208/eZkNjFDH_normal.jpg",
-      "likes": 1,
-      "views": 7,
+      "likes": 2,
+      "views": 9,
       "comments": 1,
       "retweets": 0,
       "images": [
@@ -4186,7 +4879,7 @@
       "author_name": "Fortuna(❖,❖)",
       "author_profile_image": "https://pbs.twimg.com/profile_images/1973048063645347840/NOQEW5ah_normal.jpg",
       "likes": 4,
-      "views": 35,
+      "views": 37,
       "comments": 2,
       "retweets": 1,
       "images": [
@@ -4240,7 +4933,7 @@
       "author_name": "Zaraki_Sol",
       "author_profile_image": "https://pbs.twimg.com/profile_images/1947437920761020416/mBKNYBbJ_normal.jpg",
       "likes": 4,
-      "views": 35,
+      "views": 39,
       "comments": 2,
       "retweets": 0,
       "images": [],
@@ -4350,7 +5043,7 @@
       "author_name": "Andy 🫎",
       "author_profile_image": "https://pbs.twimg.com/profile_images/1928790535965220864/yPNTWqYU_normal.jpg",
       "likes": 2,
-      "views": 20,
+      "views": 21,
       "comments": 0,
       "retweets": 0,
       "images": [
@@ -4516,640 +5209,13 @@
       "author_name": "Guzy",
       "author_profile_image": "https://pbs.twimg.com/profile_images/2007025252128206848/sF-am2CA_normal.jpg",
       "likes": 7,
-      "views": 88,
+      "views": 96,
       "comments": 3,
       "retweets": 1,
       "images": [
         "https://pbs.twimg.com/media/G9wrd8xXUAMQB4Q.jpg"
       ],
       "text": "the architecture for the $BILL economy is officially here🛡️\n\nwith the @billions_ntwk tokenomics now public, it’s clear the team is playing the long game. A 10B total supply with a disciplined 4-year vesting schedule for the community shows real commitment to sustainability over short-term hype.\n\nkey takeaways:\n\ninitial Circulation: 2.3B $BILL\n\ncommunity Allocation: 3.2B (with 252.16M at TGE)\n\nthe upcoming ZK-proofs mainnet is more than a launch; it’s the first mobile-first identity layer for both humans and AI. The 'Internet of Value' is finally getting the foundation it deserves."
-    }
-  },
-  {
-    "tweet_id": "2007527222903537992",
-    "tweet_url": "https://x.com/i/status/2007527222903537992",
-    "discord_sources": [
-      {
-        "guild_id": 1347581046442688553,
-        "channel_id": 1353336758808477736,
-        "message_id": "1457086049917599745",
-        "message_url": "https://discord.com/channels/1347581046442688553/1353336758808477736/1457086049917599745",
-        "author_username": "abubakar00313",
-        "author_id": "1222298964435533944",
-        "author_roles": [
-          "General Chat",
-          "Billions AI",
-          "Competitions",
-          "Verified Human",
-          "Rewards",
-          "Beta Tester"
-        ],
-        "author_role_ids": [
-          "1361962670789623879",
-          "1351538349050957864",
-          "1351538345775464490",
-          "1351538344735019019",
-          "1351538347935535155",
-          "1351538340729458741"
-        ],
-        "content": "https://x.com/i/status/2007527222903537992"
-      }
-    ],
-    "twitter": {
-      "author_screen_name": "abbakar19_",
-      "author_name": "Ishaq Abubakar",
-      "author_profile_image": "https://pbs.twimg.com/profile_images/1874219672398094336/z7myF0pR_normal.jpg",
-      "likes": 1,
-      "views": 2,
-      "comments": 0,
-      "retweets": 0,
-      "images": [
-        "https://pbs.twimg.com/media/G9wrV3sXUAARX41.jpg"
-      ],
-      "text": "I’m officially done clicking on buses and traffic lights to prove I’m a human 🤖🚫\n\nthe @billions_ntwk ZK-check is so much smoother. One tap on my phone and I’m verified without giving up a single piece of private data. It’s the end of the bot-check era. https://t.co/Krj1i2JirD"
-    }
-  },
-  {
-    "tweet_id": "2007526832535433372",
-    "tweet_url": "https://x.com/clarkmark2462/status/2007526832535433372",
-    "discord_sources": [
-      {
-        "guild_id": 1347581046442688553,
-        "channel_id": 1353336758808477736,
-        "message_id": "1457086012919517358",
-        "message_url": "https://discord.com/channels/1347581046442688553/1353336758808477736/1457086012919517358",
-        "author_username": "malvin2462",
-        "author_id": "1129048156173258806",
-        "author_roles": [
-          "ID Evangelist",
-          "General Chat",
-          "Billions AI",
-          "OG",
-          "Competitions",
-          "Verified Human",
-          "Meme Master",
-          "Content Creator",
-          "Rewards",
-          "Raids",
-          "Beta Tester",
-          "Network Amplifier",
-          "Real Human",
-          "Event"
-        ],
-        "author_role_ids": [
-          "1351538339102330945",
-          "1361962670789623879",
-          "1351538349050957864",
-          "1351538336497405993",
-          "1351538345775464490",
-          "1351538344735019019",
-          "1351538342507839500",
-          "1351538343904677948",
-          "1351538347935535155",
-          "1351538347264315412",
-          "1351538340729458741",
-          "1430701160641200371",
-          "1351951472354660475",
-          "1374772171083092028"
-        ],
-        "content": "https://x.com/clarkmark2462/status/2007526832535433372?s=46"
-      }
-    ],
-    "twitter": {
-      "author_screen_name": "clarkmark2462",
-      "author_name": "马尔文博士。🧡🧡🧡🍊",
-      "author_profile_image": "https://pbs.twimg.com/profile_images/2004615583413809152/20xNlZ9V_normal.jpg",
-      "likes": 4,
-      "views": 16,
-      "comments": 3,
-      "retweets": 1,
-      "images": [
-        "https://pbs.twimg.com/media/G9wrAoVWcAAAxQr.jpg",
-        "https://pbs.twimg.com/media/G9wrAoVXYAA77JG.jpg"
-      ],
-      "text": "Did you know @billions_ntwk  just partnered with Sony Bank of Japan?\n\nWe are just starting bring it on $Bill https://t.co/Gg6RgrvhQ1"
-    }
-  },
-  {
-    "tweet_id": "2007524407145869477",
-    "tweet_url": "https://x.com/i/status/2007524407145869477",
-    "discord_sources": [
-      {
-        "guild_id": 1347581046442688553,
-        "channel_id": 1353336758808477736,
-        "message_id": "1457084869095198969",
-        "message_url": "https://discord.com/channels/1347581046442688553/1353336758808477736/1457084869095198969",
-        "author_username": "sugar22ddy",
-        "author_id": "861690217815080990",
-        "author_roles": [
-          "ID Evangelist",
-          "Billions AI",
-          "Verified Human",
-          "Meme Master",
-          "Rewards",
-          "Beta Tester",
-          "Early Adopter",
-          "Content Creator"
-        ],
-        "author_role_ids": [
-          "1351538339102330945",
-          "1351538349050957864",
-          "1351538344735019019",
-          "1351538342507839500",
-          "1351538347935535155",
-          "1351538340729458741",
-          "1351538337936314488",
-          "1351538343904677948"
-        ],
-        "content": "https://x.com/i/status/2007524407145869477"
-      }
-    ],
-    "twitter": {
-      "author_screen_name": "AsadMaq225391",
-      "author_name": "Asad Maqbool",
-      "author_profile_image": "https://pbs.twimg.com/profile_images/2003373997153812480/uSoai-l-_normal.jpg",
-      "likes": 0,
-      "views": 10,
-      "comments": 10,
-      "retweets": 0,
-      "images": [
-        "https://pbs.twimg.com/media/G9wozE5asAMh-3e.jpg"
-      ],
-      "text": "Bots Hate This One Thing: Real Identity\nIn today’s digital world, bots don’t just exist they dominate.\nThey inflate numbers, manipulate conversations, farm rewards, and blur the line between what’s real and what’s manufactured. \n@billions_ntwk \n\nThread 👇👇👇 https://t.co/yn3KtAuspR"
-    }
-  },
-  {
-    "tweet_id": "2007525549993087458",
-    "tweet_url": "https://x.com/i/status/2007525549993087458",
-    "discord_sources": [
-      {
-        "guild_id": 1347581046442688553,
-        "channel_id": 1353336758808477736,
-        "message_id": "1457084505486790781",
-        "message_url": "https://discord.com/channels/1347581046442688553/1353336758808477736/1457084505486790781",
-        "author_username": "dankano1",
-        "author_id": "984189093799927818",
-        "author_roles": [
-          "ID Evangelist",
-          "Billions AI",
-          "Competitions",
-          "Verified Human",
-          "Meme Master",
-          "Rewards",
-          "Raids",
-          "Beta Tester",
-          "Real Human",
-          "Content Creator"
-        ],
-        "author_role_ids": [
-          "1351538339102330945",
-          "1351538349050957864",
-          "1351538345775464490",
-          "1351538344735019019",
-          "1351538342507839500",
-          "1351538347935535155",
-          "1351538347264315412",
-          "1351538340729458741",
-          "1351951472354660475",
-          "1351538343904677948"
-        ],
-        "content": "https://x.com/i/status/2007525549993087458"
-      }
-    ],
-    "twitter": {
-      "author_screen_name": "sadikumusa4",
-      "author_name": "Bakano.base.eth",
-      "author_profile_image": "https://pbs.twimg.com/profile_images/1847627631723778048/t17HkoRh_normal.jpg",
-      "likes": 0,
-      "views": 12,
-      "comments": 0,
-      "retweets": 0,
-      "images": [
-        "https://pbs.twimg.com/media/G9wp0vzWkAALPIJ.jpg"
-      ],
-      "text": "Sony Bank + @billions_ntwk: The Future of Secure Identity.\n\n● One of Japan’s largest banks just proved something every financial institution needs to see:\nYou can verify customer identities WITHOUT violating their privacy.\nSony Bank partnered with @SettleMintCOM using Billions Network zero-knowledge proof technology.\n\n● What does this mean?\n• Customers can complete KYC\nBanks don’t see sensitive personal data\n• Privacy and compliance can coexist\nThis isn’t theory—it’s real-world results with live transactions.\n\n● The deployment proves that:\n• Major institutions can adopt web3 without surveillance\n• Zero-knowledge proofs work at institutional scale\n• Privacy + compliance aren’t opposing forces\n• KYC/AML compliance is maintained\nMany more Banks and Tech companies are coming to Billions Network for their KYC services..\n#BillionsNetwork $Bill"
-    }
-  },
-  {
-    "tweet_id": "2007519000419545530",
-    "tweet_url": "https://x.com/IB_Khaleeel01/status/2007519000419545530",
-    "discord_sources": [
-      {
-        "guild_id": 1347581046442688553,
-        "channel_id": 1353336758808477736,
-        "message_id": "1457080854768652595",
-        "message_url": "https://discord.com/channels/1347581046442688553/1353336758808477736/1457080854768652595",
-        "author_username": "khaleel01.",
-        "author_id": "905773487510126672",
-        "author_roles": [
-          "ID Evangelist",
-          "Billions AI",
-          "Competitions",
-          "Verified Human",
-          "Meme Master",
-          "Rewards",
-          "Raids",
-          "Beta Tester",
-          "Content Creator"
-        ],
-        "author_role_ids": [
-          "1351538339102330945",
-          "1351538349050957864",
-          "1351538345775464490",
-          "1351538344735019019",
-          "1351538342507839500",
-          "1351538347935535155",
-          "1351538347264315412",
-          "1351538340729458741",
-          "1351538343904677948"
-        ],
-        "content": "https://x.com/IB_Khaleeel01/status/2007519000419545530?t=tdy91pMsR2iRhdFa1670zw&s=19"
-      }
-    ],
-    "twitter": {
-      "author_screen_name": "IB_Khaleeel01",
-      "author_name": "Ibrahim_Khaleel",
-      "author_profile_image": "https://pbs.twimg.com/profile_images/1979974792632492032/o0wGtdzg_normal.jpg",
-      "likes": 3,
-      "views": 23,
-      "comments": 0,
-      "retweets": 0,
-      "images": [
-        "https://pbs.twimg.com/media/G9wj5FLXoAA1aeM.jpg"
-      ],
-      "text": "Attention Everyone 🚨\n\nUpdate Your @billions_ntwk Apps\n\nIf you update the Billions app, you will be able to see new future features.\n\nEveryone should update the Billions app and stay connected with the Billions community \n\nGo Go Play Store and Update Billions Apps Everyone. https://t.co/r6g3WGphj2"
-    }
-  },
-  {
-    "tweet_id": "2007521906656948496",
-    "tweet_url": "https://x.com/i/status/2007521906656948496",
-    "discord_sources": [
-      {
-        "guild_id": 1347581046442688553,
-        "channel_id": 1353336758808477736,
-        "message_id": "1457080734643912933",
-        "message_url": "https://discord.com/channels/1347581046442688553/1353336758808477736/1457080734643912933",
-        "author_username": "revidhonugraha",
-        "author_id": "931520665322917898",
-        "author_roles": [
-          "ID Evangelist",
-          "General Chat",
-          "Billions AI",
-          "Competitions",
-          "Verified Human",
-          "Meme Master",
-          "Rewards",
-          "Raids",
-          "Beta Tester",
-          "Real Human",
-          "Content Creator"
-        ],
-        "author_role_ids": [
-          "1351538339102330945",
-          "1361962670789623879",
-          "1351538349050957864",
-          "1351538345775464490",
-          "1351538344735019019",
-          "1351538342507839500",
-          "1351538347935535155",
-          "1351538347264315412",
-          "1351538340729458741",
-          "1351951472354660475",
-          "1351538343904677948"
-        ],
-        "content": "https://x.com/i/status/2007521906656948496"
-      }
-    ],
-    "twitter": {
-      "author_screen_name": "plantart_id",
-      "author_name": "revidho.base.eth",
-      "author_profile_image": "https://pbs.twimg.com/profile_images/1995535857311506432/68ed_xLM_normal.jpg",
-      "likes": 2,
-      "views": 16,
-      "comments": 2,
-      "retweets": 0,
-      "images": [
-        "https://pbs.twimg.com/media/G9wmiKFbIAAqY3b.jpg"
-      ],
-      "text": "Real humans matter.\nPrivacy matters.\n\nThat’s why @billions_ntwk exists.\nTrust, without surveillance. https://t.co/3Dx3tdQ6dR"
-    }
-  },
-  {
-    "tweet_id": "2007521859718508958",
-    "tweet_url": "https://x.com/thegodgoku11/status/2007521859718508958",
-    "discord_sources": [
-      {
-        "guild_id": 1347581046442688553,
-        "channel_id": 1353336758808477736,
-        "message_id": "1457080640091590708",
-        "message_url": "https://discord.com/channels/1347581046442688553/1353336758808477736/1457080640091590708",
-        "author_username": "lifecrypto859",
-        "author_id": "1319280888839798868",
-        "author_roles": [
-          "ID Evangelist",
-          "Billions AI",
-          "Competitions",
-          "Verified Human",
-          "Meme Master",
-          "Rewards",
-          "Raids",
-          "Beta Tester",
-          "Early Adopter",
-          "Content Creator"
-        ],
-        "author_role_ids": [
-          "1351538339102330945",
-          "1351538349050957864",
-          "1351538345775464490",
-          "1351538344735019019",
-          "1351538342507839500",
-          "1351538347935535155",
-          "1351538347264315412",
-          "1351538340729458741",
-          "1351538337936314488",
-          "1351538343904677948"
-        ],
-        "content": "https://x.com/thegodgoku11/status/2007521859718508958?s=20"
-      }
-    ],
-    "twitter": {
-      "author_screen_name": "thegodgoku11",
-      "author_name": "GOKU",
-      "author_profile_image": "https://pbs.twimg.com/profile_images/1992667138033897472/gWqwhkqX_normal.jpg",
-      "likes": 0,
-      "views": 16,
-      "comments": 1,
-      "retweets": 0,
-      "images": [
-        "https://pbs.twimg.com/media/G9wmeyiasAQNPZd.jpg"
-      ],
-      "text": "What if @billions_ntwk cooks?\n\nPlenty of solid projects fumbled their community airdrops but Billions feels different.\n\nSince launching Feb 2025, they’ve hit major milestones and secured $30M from Coinbase Ventures, Polychain, and Polygon Labs to build zk-powered identity tech. https://t.co/naJT8Nx3hq"
-    }
-  },
-  {
-    "tweet_id": "2007520346425975087",
-    "tweet_url": "https://x.com/Nimox219/status/2007520346425975087",
-    "discord_sources": [
-      {
-        "guild_id": 1347581046442688553,
-        "channel_id": 1353336758808477736,
-        "message_id": "1457079193429872680",
-        "message_url": "https://discord.com/channels/1347581046442688553/1353336758808477736/1457079193429872680",
-        "author_username": "nimox219",
-        "author_id": "1300145103037534418",
-        "author_roles": [
-          "ID Evangelist",
-          "Billions AI",
-          "Competitions",
-          "Verified Human",
-          "Meme Master",
-          "Content Creator",
-          "Rewards",
-          "Raids",
-          "Beta Tester",
-          "Early Adopter",
-          "Real Human",
-          "Event"
-        ],
-        "author_role_ids": [
-          "1351538339102330945",
-          "1351538349050957864",
-          "1351538345775464490",
-          "1351538344735019019",
-          "1351538342507839500",
-          "1351538343904677948",
-          "1351538347935535155",
-          "1351538347264315412",
-          "1351538340729458741",
-          "1351538337936314488",
-          "1351951472354660475",
-          "1374772171083092028"
-        ],
-        "content": "https://x.com/Nimox219/status/2007520346425975087?s=20"
-      }
-    ],
-    "twitter": {
-      "author_screen_name": "Nimox219",
-      "author_name": "Ɲımøx",
-      "author_profile_image": "https://pbs.twimg.com/profile_images/2005374825963945984/bGuMzKQT_normal.jpg",
-      "likes": 2,
-      "views": 23,
-      "comments": 1,
-      "retweets": 0,
-      "images": [],
-      "text": "Good web site is good, but the actual message is consistency.\n\nSimilar emphasis on privacy, rapid verification, no data exchange, and responsibility between a human and AI\nIt is better to build on the foundations rather than noise seek.\nThat's how trust compounds.\n@billions_ntwk https://t.co/SV9z3G5IfB"
-    }
-  },
-  {
-    "tweet_id": "2007519623340830813",
-    "tweet_url": "https://x.com/i/status/2007519623340830813",
-    "discord_sources": [
-      {
-        "guild_id": 1347581046442688553,
-        "channel_id": 1353336758808477736,
-        "message_id": "1457078496823087218",
-        "message_url": "https://discord.com/channels/1347581046442688553/1353336758808477736/1457078496823087218",
-        "author_username": "wild_airdrop",
-        "author_id": "1389655117481115831",
-        "author_roles": [
-          "ID Evangelist",
-          "General Chat",
-          "Billions AI",
-          "Competitions",
-          "Verified Human",
-          "Meme Master",
-          "Rewards",
-          "Raids",
-          "Beta Tester",
-          "Content Creator"
-        ],
-        "author_role_ids": [
-          "1351538339102330945",
-          "1361962670789623879",
-          "1351538349050957864",
-          "1351538345775464490",
-          "1351538344735019019",
-          "1351538342507839500",
-          "1351538347935535155",
-          "1351538347264315412",
-          "1351538340729458741",
-          "1351538343904677948"
-        ],
-        "content": "https://x.com/i/status/2007519623340830813"
-      }
-    ],
-    "twitter": {
-      "author_screen_name": "dollyko87",
-      "author_name": "dolly ko",
-      "author_profile_image": "https://pbs.twimg.com/profile_images/2004219289172430852/3WPUzkXC_normal.jpg",
-      "likes": 0,
-      "views": 1,
-      "comments": 0,
-      "retweets": 0,
-      "images": [
-        "https://pbs.twimg.com/media/G9wkdNvasAUXCIC.jpg"
-      ],
-      "text": "Billion network happy 😁 https://t.co/0G8F2IjmPL"
-    }
-  },
-  {
-    "tweet_id": "2007518769686749377",
-    "tweet_url": "https://x.com/i/status/2007518769686749377",
-    "discord_sources": [
-      {
-        "guild_id": 1347581046442688553,
-        "channel_id": 1353336758808477736,
-        "message_id": "1457077676937318482",
-        "message_url": "https://discord.com/channels/1347581046442688553/1353336758808477736/1457077676937318482",
-        "author_username": "oxsanbi",
-        "author_id": "1313540940865994876",
-        "author_roles": [
-          "ID Evangelist",
-          "Billions AI",
-          "Competitions",
-          "Verified Human",
-          "Meme Master",
-          "Content Creator",
-          "Rewards",
-          "Raids",
-          "Beta Tester",
-          "Early Adopter",
-          "Real Human",
-          "Event"
-        ],
-        "author_role_ids": [
-          "1351538339102330945",
-          "1351538349050957864",
-          "1351538345775464490",
-          "1351538344735019019",
-          "1351538342507839500",
-          "1351538343904677948",
-          "1351538347935535155",
-          "1351538347264315412",
-          "1351538340729458741",
-          "1351538337936314488",
-          "1351951472354660475",
-          "1374772171083092028"
-        ],
-        "content": "https://x.com/i/status/2007518769686749377"
-      }
-    ],
-    "twitter": {
-      "author_screen_name": "Kasnap96",
-      "author_name": "OxSanbi",
-      "author_profile_image": "https://pbs.twimg.com/profile_images/1974128243310784512/B5ktMo8E_normal.jpg",
-      "likes": 0,
-      "views": 7,
-      "comments": 1,
-      "retweets": 0,
-      "images": [
-        "https://pbs.twimg.com/media/G9wjrUmasAAqMpU.jpg"
-      ],
-      "text": "If banks can verify who you are without knowing your data, surveillance is no longer a compliance requirement.\nSony Bank, along with SettleMint, proves that privacy and KYC can coexist—today, on an institutional scale.\n\n#billionsnetwork https://t.co/wBgIGeaRsb"
-    }
-  },
-  {
-    "tweet_id": "2007350652859760882",
-    "tweet_url": "https://x.com/i/status/2007350652859760882",
-    "discord_sources": [
-      {
-        "guild_id": 1347581046442688553,
-        "channel_id": 1353336758808477736,
-        "message_id": "1457077201584390299",
-        "message_url": "https://discord.com/channels/1347581046442688553/1353336758808477736/1457077201584390299",
-        "author_username": "thomax6586",
-        "author_id": "1016698852146958377",
-        "author_roles": [
-          "ID Evangelist",
-          "Billions AI",
-          "OG",
-          "Competitions",
-          "Verified Human",
-          "Meme Master",
-          "Rewards",
-          "Raids",
-          "Beta Tester",
-          "Early Adopter",
-          "Real Human",
-          "Content Creator"
-        ],
-        "author_role_ids": [
-          "1351538339102330945",
-          "1351538349050957864",
-          "1351538336497405993",
-          "1351538345775464490",
-          "1351538344735019019",
-          "1351538342507839500",
-          "1351538347935535155",
-          "1351538347264315412",
-          "1351538340729458741",
-          "1351538337936314488",
-          "1351951472354660475",
-          "1351538343904677948"
-        ],
-        "content": "https://x.com/i/status/2007350652859760882"
-      }
-    ],
-    "twitter": {
-      "author_screen_name": "thomaxspeaks",
-      "author_name": "thomax🧸",
-      "author_profile_image": "https://pbs.twimg.com/profile_images/1973954593529749506/niD0Tgv8_normal.jpg",
-      "likes": 19,
-      "views": 150,
-      "comments": 14,
-      "retweets": 1,
-      "images": [],
-      "text": "Billions Network @billions_ntwk is building a universal, privacy-preserving identity layer that lets people (and AI systems) prove who they are securely and privately  enabling trustworthy interactions and services in the AI-powered digital world. \n\n🔍 Core Technology\n\nZero-Knowledge Proofs (ZKPs): Cryptographic methods that prove identity without revealing private information.\n\nMobile-First Verification: Users verify uniqueness using their phones and IDs, keeping data encrypted and under their control.\n\nDecentralized Architecture: No central servers store personal data, users own their credentials. \n\n🤝 Humans and AI\n\nBillions verifies both humans and AI agents:\n\nHumans: Proof of personhood for secure login, governance participation, rewards, or access to services.\n\nAI Agents: Verifies the integrity, training sources, and operational credentials of autonomous AI systems. This helps reduce scams, fake content, and bot attacks. \n\n💼 Why It Matters\n\nAs online interactions increasingly mix humans with AI systems, there’s a growing need to prove authenticity without sacrificing privacy. \n\nBillions aims to reduce fraud, Sybil attacks, and fake accounts while enabling trusted interactions across apps, DeFi, gaming, and enterprise systems.  \n\n📱 Key Benefits\n\n- Privacy-First: No biometrics or central data repositories.\n\n- Reusable Identity: Verify once, use across apps and chains.\n\n- Human + AI Verification: Built for the future digital economy.\n\n- Global Accessibility: Works with widely issued IDs and mobile devices."
-    }
-  },
-  {
-    "tweet_id": "2007517622787801347",
-    "tweet_url": "https://x.com/IB_Khaleeel01/status/2007517622787801347",
-    "discord_sources": [
-      {
-        "guild_id": 1347581046442688553,
-        "channel_id": 1353336758808477736,
-        "message_id": "1457076957190553796",
-        "message_url": "https://discord.com/channels/1347581046442688553/1353336758808477736/1457076957190553796",
-        "author_username": "khaleel01.",
-        "author_id": "905773487510126672",
-        "author_roles": [
-          "ID Evangelist",
-          "Billions AI",
-          "Competitions",
-          "Verified Human",
-          "Meme Master",
-          "Rewards",
-          "Raids",
-          "Beta Tester",
-          "Content Creator"
-        ],
-        "author_role_ids": [
-          "1351538339102330945",
-          "1351538349050957864",
-          "1351538345775464490",
-          "1351538344735019019",
-          "1351538342507839500",
-          "1351538347935535155",
-          "1351538347264315412",
-          "1351538340729458741",
-          "1351538343904677948"
-        ],
-        "content": "https://x.com/IB_Khaleeel01/status/2007517622787801347?t=MCllxCZZNmU-zPYNEB4qUA&s=19"
-      }
-    ],
-    "twitter": {
-      "author_screen_name": "IB_Khaleeel01",
-      "author_name": "Ibrahim_Khaleel",
-      "author_profile_image": "https://pbs.twimg.com/profile_images/1979974792632492032/o0wGtdzg_normal.jpg",
-      "likes": 1,
-      "views": 18,
-      "comments": 4,
-      "retweets": 0,
-      "images": [
-        "https://pbs.twimg.com/media/G9wioapWUAEf0bY.jpg"
-      ],
-      "text": "@billions_ntwk is straight-up building the unstoppable trust layer for the internet in the AI era.The new website is an absolute glow-up – clean, intuitive, and crystal clear on the vision: https://t.co/DM342KwDSN"
     }
   }
 ]
