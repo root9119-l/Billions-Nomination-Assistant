@@ -15,9 +15,111 @@
       --blue:#0046FF;     /* from your palette */
       --black:#000000;
       --white:#FFFFFF;
+      --gray:#eeeeee;
 
       --radius:16px;
       --radius2:22px;
+
+      /* extra theme tokens */
+      --surface: rgba(0,0,0,.01);
+      --chip-bg: rgba(0,0,0,.03);
+      --chip-text: rgba(0,0,0,.85);
+
+      --pill-border: rgba(0,0,0,.10);
+      --pill-bg: rgba(255,255,255,.88);
+
+      --media-grad1: rgba(0,70,255,.14);
+      --media-grad2: rgba(0,70,255,.10);
+      --media-grad3: rgba(0,0,0,.03);
+      --media-grad4: rgba(0,0,0,.00);
+
+      --hover-shadow: 0 14px 40px rgba(0,0,0,.09);
+    }
+
+    /* Auto dark mode if user prefers */
+    @media (prefers-color-scheme: dark){
+      :root{
+        --bg:#0b0b0c;
+        --text:#f2f2f4;
+        --muted:rgba(255,255,255,.60);
+        --border:rgba(255,255,255,.12);
+        --shadow:0 10px 30px rgba(0,0,0,.45);
+
+        --black:#000000;
+        --white:#ffffff;
+
+        --gray: rgba(255,255,255,.06);
+        --surface: rgba(255,255,255,.04);
+
+        --chip-bg: rgba(255,255,255,.06);
+        --chip-text: rgba(255,255,255,.88);
+
+        --pill-border: rgba(255,255,255,.14);
+        --pill-bg: rgba(15,15,18,.72);
+
+        --media-grad1: rgba(0,70,255,.20);
+        --media-grad2: rgba(0,70,255,.12);
+        --media-grad3: rgba(255,255,255,.06);
+        --media-grad4: rgba(255,255,255,.00);
+
+        --hover-shadow: 0 18px 60px rgba(0,0,0,.55);
+      }
+    }
+
+    /* Manual override (body.dark) */
+    body.dark{
+      --bg:#0b0b0c;
+      --text:#f2f2f4;
+      --muted:rgba(255,255,255,.60);
+      --border:rgba(255,255,255,.12);
+      --shadow:0 10px 30px rgba(0,0,0,.45);
+
+      --black:#000000;
+      --white:#ffffff;
+
+      --gray: rgba(255,255,255,.06);
+      --surface: rgba(255,255,255,.04);
+
+      --chip-bg: rgba(255,255,255,.06);
+      --chip-text: rgba(255,255,255,.88);
+
+      --pill-border: rgba(255,255,255,.14);
+      --pill-bg: rgba(15,15,18,.72);
+
+      --media-grad1: rgba(0,70,255,.20);
+      --media-grad2: rgba(0,70,255,.12);
+      --media-grad3: rgba(255,255,255,.06);
+      --media-grad4: rgba(255,255,255,.00);
+
+      --hover-shadow: 0 18px 60px rgba(0,0,0,.55);
+    }
+
+    /* Manual override (body.light) — forces light even if system is dark */
+    body.light{
+      --bg:#ffffff;
+      --text:#0b0b0c;
+      --muted:rgba(0,0,0,.55);
+      --border:rgba(0,0,0,.10);
+      --shadow:0 10px 30px rgba(0,0,0,.06);
+
+      --blue:#0046FF;
+      --black:#000000;
+      --white:#FFFFFF;
+      --gray:#eeeeee;
+
+      --surface: rgba(0,0,0,.01);
+      --chip-bg: rgba(0,0,0,.03);
+      --chip-text: rgba(0,0,0,.85);
+
+      --pill-border: rgba(0,0,0,.10);
+      --pill-bg: rgba(255,255,255,.88);
+
+      --media-grad1: rgba(0,70,255,.14);
+      --media-grad2: rgba(0,70,255,.10);
+      --media-grad3: rgba(0,0,0,.03);
+      --media-grad4: rgba(0,0,0,.00);
+
+      --hover-shadow: 0 14px 40px rgba(0,0,0,.09);
     }
 
     *{box-sizing:border-box}
@@ -27,6 +129,7 @@
       font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans";
       background:var(--bg);
       color:var(--text);
+      transition: background .2s ease, color .2s ease;
     }
 
     .wrap{
@@ -56,20 +159,41 @@
     }
 
     .dev {
-    font-size: 12px;
-    color: rgba(0,0,0,.45);
+      font-size: 12px;
+      color: var(--muted);
+      display:flex;
+      align-items:center;
+      gap:10px;
+      flex-wrap:wrap;
     }
 
     .dev a {
-    color: var(--blue);
-    text-decoration: none;
-    font-weight: 700;
+      color: var(--blue);
+      text-decoration: none;
+      font-weight: 700;
     }
 
     .dev a:hover {
-    text-decoration: underline;
+      text-decoration: underline;
     }
 
+    /* Theme toggle */
+    .theme-toggle{
+      margin-left:auto;
+      display:inline-flex;
+      align-items:center;
+      gap:10px;
+      padding: 8px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text);
+      font-size: 12px;
+      font-weight: 800;
+      cursor: pointer;
+      user-select:none;
+    }
+    .theme-toggle:active{ transform: translateY(1px); }
 
     /* Grid */
     .grid{
@@ -80,7 +204,7 @@
 
     .card{
       grid-column: span 12;
-      background: var(--white);
+      background: var(--gray);
       border: 1px solid var(--border);
       border-radius: var(--radius2);
       overflow:hidden;
@@ -89,6 +213,7 @@
       opacity: 0;
       animation: cardIn .45s ease forwards;
       will-change: transform, opacity;
+      transition: background .2s ease, border-color .2s ease, box-shadow .2s ease, transform .2s ease;
     }
     @media (min-width: 760px){
       .card{ grid-column: span 6; }
@@ -99,16 +224,16 @@
 
     .card:hover{
       transform: translateY(-2px);
-      box-shadow: 0 14px 40px rgba(0,0,0,.09);
+      box-shadow: var(--hover-shadow);
     }
 
     .media{
       width:100%;
       aspect-ratio: 16/9;
       background:
-        radial-gradient(1200px 400px at -10% -10%, rgba(0,70,255,.14), transparent 60%),
-        radial-gradient(800px 300px at 110% 0%, rgba(0,70,255,.10), transparent 55%),
-        linear-gradient(135deg, rgba(0,0,0,.03), rgba(0,0,0,.00));
+        radial-gradient(1200px 400px at -10% -10%, var(--media-grad1), transparent 60%),
+        radial-gradient(800px 300px at 110% 0%, var(--media-grad2), transparent 55%),
+        linear-gradient(135deg, var(--media-grad3), var(--media-grad4));
       position:relative;
       overflow:hidden;
     }
@@ -133,9 +258,10 @@
       border-radius: 999px;
       font-size: 12px;
       font-weight: 800;
-      border: 1px solid rgba(0,0,0,.10);
-      background: rgba(255,255,255,.88);
+      border: 1px solid var(--pill-border);
+      background: var(--pill-bg);
       backdrop-filter: blur(8px);
+      color: var(--text);
     }
     .pill .dot{
       width:8px;
@@ -174,6 +300,12 @@
       background: rgba(0,0,0,.05);
       flex: 0 0 auto;
     }
+    @media (prefers-color-scheme: dark){
+      .avatar{ background: rgba(255,255,255,.06); }
+    }
+    body.dark .avatar{ background: rgba(255,255,255,.06); }
+    body.light .avatar{ background: rgba(0,0,0,.05); }
+
     .avatar img{
       width:100%;
       height:100%;
@@ -217,15 +349,15 @@
       border-radius: 999px;
       font-size: 12px;
       border: 1px solid var(--border);
-      background: rgba(0,0,0,.03);
-      color: rgba(0,0,0,.85);
+      background: var(--chip-bg);
+      color: var(--chip-text);
     }
     .chip b{ font-weight: 900; }
 
     .text{
       font-size: 14px;
       line-height: 1.35;
-      color: rgba(0,0,0,.88);
+      color: color-mix(in srgb, var(--text) 92%, transparent);
       display:-webkit-box;
       -webkit-line-clamp: 4;
       -webkit-box-orient: vertical;
@@ -239,7 +371,7 @@
       flex-wrap:wrap;
       padding: 12px 14px 14px;
       border-top: 1px solid var(--border);
-      background: rgba(0,0,0,.01);
+      background: var(--surface);
     }
     .link{
       text-decoration:none;
@@ -251,16 +383,16 @@
       font-weight: 800;
       font-size: 13px;
       border: 1px solid var(--border);
-      color: var(--black);
-      background: var(--white);
-      transition: transform .08s ease, filter .15s ease;
+      color: var(--text);
+      background: color-mix(in srgb, var(--bg) 85%, transparent);
+      transition: transform .08s ease, filter .15s ease, background .2s ease, color .2s ease, border-color .2s ease;
     }
     .link:hover{ filter: brightness(.98); }
     .link:active{ transform: translateY(1px); }
     .link.primary{
       border-color: rgba(0,70,255,.30);
-      background: rgba(0,70,255,.10);
-      color: var(--black);
+      background: rgba(0,70,255,.14);
+      color: var(--text);
     }
 
     /* Footer CTA */
@@ -330,10 +462,15 @@
     <div class="hero">
       <h1>Billions Nomination Assistant</h1>
       <div class="dev">
-        dev:
+        <span>dev:</span>
         <a href="https://x.com/makssay_eth" target="_blank" rel="noreferrer">
-            @makssay_eth
+          @makssay_eth
         </a>
+
+        <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle theme">
+          <span id="themeToggleText">Dark</span>
+          <span aria-hidden="true">🌙</span>
+        </button>
       </div>
       <p>Recent Tweets in the <b>share-content</b> section are updated every 2 hours</p>
     </div>
@@ -525,6 +662,56 @@
       render();
     });
   </script>
+
+  <!-- Theme toggle script (isolated; does not touch app logic) -->
+  <script>
+    (function(){
+      const KEY = "theme";
+      const btn = document.getElementById("themeToggle");
+      const txt = document.getElementById("themeToggleText");
+      const mq = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
+
+      function effectiveIsDark(){
+        if (document.body.classList.contains("dark")) return true;
+        if (document.body.classList.contains("light")) return false;
+        return !!(mq && mq.matches);
+      }
+
+      function syncLabel(){
+        if (!txt) return;
+        txt.textContent = effectiveIsDark() ? "Light" : "Dark";
+      }
+
+      function apply(mode){
+        // mode: "dark" | "light" | "auto"
+        document.body.classList.toggle("dark", mode === "dark");
+        document.body.classList.toggle("light", mode === "light");
+        syncLabel();
+      }
+
+      // init
+      const saved = localStorage.getItem(KEY);
+      if (saved === "dark" || saved === "light") {
+        apply(saved);
+      } else {
+        apply("auto"); // no class -> follow system
+      }
+
+      if (!btn) return;
+      btn.addEventListener("click", () => {
+        const next = effectiveIsDark() ? "light" : "dark";
+        localStorage.setItem(KEY, next);
+        apply(next);
+      });
+
+      // if user didn't force theme, keep label correct when system theme changes
+      if (mq) {
+        mq.addEventListener?.("change", () => {
+          const savedNow = localStorage.getItem(KEY);
+          if (savedNow !== "dark" && savedNow !== "light") syncLabel();
+        });
+      }
+    })();
+  </script>
 </body>
 </html>
-
